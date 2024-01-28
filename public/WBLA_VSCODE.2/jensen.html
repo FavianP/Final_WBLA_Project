@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+        footer{
+    padding: 50px 13% 50px;
+    /* height: 50vh; */
+    width: 75vw;
+}
+.footer{
+    background: grey;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 8rem;
+    background: grey;
+    position: absolute;
+    left: 0;
+    right:0;
+    margin-top: 100vh;
+    /* bottom:0; */
+}
+.footer-content{
+    color: white;
+    margin-left: 3rem;
+    font-size: 15px;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Times New Roman', Times, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div#info {
+  margin: 20px;
+  line-height: 60px;
+}
+
+.footer-content li a {
+    padding: 5px;
+    display: block;
+    color:  white;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .40s ease;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-content li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color: white;
+}
+.footer-content p{
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 10px 20;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icons a {
+    display: inline-block;
+    font-size: 23px;
+    color: white;
+    padding: 10px;
+    margin-left: -12px;
+    transition: all .40s ease;
+}
+.icons a:hover{
+    color:white;
+    transform: translateY(-5px);
+}
+
+li {
+  font-size: 15px;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;}
+
+input {
+  width: 120px;
+}
+
+button {
+  height: 20px;
+  width: 50px;
+  display: inline-block;
+  margin-top: 15px;
+  color: black;
+}
+
+div.agree {
+  font-size: 15px;
+  margin-top: 15px;
+   display: inline;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+input#agree {
+    display: inline-block;
+  margin-right: -80px;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: -50px;
+}
+
+label {
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 20px;
+  position: absolute;
+
+}
+
+
+
+    </style>
+</head>
+<body>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<footer class="footer">
+  <div class="footer-content">
+    <h3>Subscribe</h3>
+    <li>Recieve product news <br>and updates in your inbox.</li>
+    <input placeholder="Email"></input>
+  <button>Send</button>
+<!--   <div class="agree">
+  <input type="checkbox" id="box">I agree to the Privacy Policy<br>and Terms of Conditions.</input>
+  </div> -->
+  <div>
+     <label id="check" class="radio-inline" style="float:right">I agree to the Privacy Policy<br>and Terms of Conditions.</label><input type="radio" name="options" id="agree"></input>
+  </div>
+</div>
+  
+  <div class="footer-content">
+    <h3>Follow Us</h3>
+  <div class="icons">
+              <a href=""><i class='bx bxl-instagram'></i></a>
+              <a href=""><i class='bx bxl-facebook-circle'></i></a>
+              <a href=""><i class='bx bxl-twitter'></i></a>
+              <a href=""><i class='bx bxl-youtube'></i></a>
+            </div>
+          </div>
+  </div>
+
+<div class="footer-content">
+  <h3>Customer Service</h3>
+  <li><a href="">General Terms and Condition</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Customer Service</a></li>
+            <li><a href="">Sitemap</a></li>
+</div>
+ 
+  
+  
+</footer>
+</body>
+</html>
